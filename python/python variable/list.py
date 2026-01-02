@@ -1,0 +1,20 @@
+l=[1,2,'srt',4.4]
+print(l)
+l.append(10)
+print(l)
+#access element
+print(l[2])
+print(l[1:3])   
+print(l[:2])    
+print(l[2:])
+l.insert(2,5)
+print(l)
+l.extend([3])
+print(l)
+l.remove('srt')
+print(l)
+l.pop(3)
+print(l)
+l[4]=30           # update
+print(l)
+print(10 in l)
